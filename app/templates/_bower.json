@@ -1,0 +1,9 @@
+{
+  "name": "<%= appname %>",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

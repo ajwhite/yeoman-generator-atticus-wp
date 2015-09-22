@@ -21,10 +21,12 @@ Generator.prototype.welcome = function () {
 
 Generator.prototype.buildTemplates = function () {
   this.template('_package.json', 'package.json');
+  this.template('_bower.json', 'bower.json');
   this.template('_travis.yml', '.travis.yml');
   this.template('README.md', 'README.md');
   this.template('gulpfile.js', 'gulpfile.js');
   this.copy('gitignore', '.gitignore');
+  this.copy('bowerrc', '.bowerrc');
   this.copy('jscsrc', '.jscsrc');
   this.copy('jshintrc', '.jshintrc');
   this.copy('editorconfig', '.editorconfig');
